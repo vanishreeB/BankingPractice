@@ -1,0 +1,45 @@
+package com.in28minutes.rest.webservices.service;
+import com.in28minutes.rest.webservices.Beans.*;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class UserDAOService {
+
+	private static List<User> users = new ArrayList<>(); 
+	//private static int usersCount =3;
+	static{
+		
+		users.add(new User(1, "vani", new Date()));
+		users.add(new User(2, "shree", new Date()));
+		users.add(new User(3, "madhu", new Date()));
+	}
+	
+	public List<User> findAll(){
+		return users;
+		
+	}
+	
+	public User save(User user){
+		if(user.getId()==null){
+			user.setId(++usersCount);
+		}
+		users.add(user);
+		
+		return user;
+	}
+	
+	public User getUser(Integer id){
+		for (User us : users){
+			if(us.getId()==id){
+				return us;
+			}
+		}
+		return null;
+	}
+	
+	
+}

@@ -1,0 +1,10 @@
+127.0.0.1 - - [06/Aug/2018:12:14:23 +0530] "GET / HTTP/1.1" 404 1076
+0:0:0:0:0:0:0:1 - - [06/Aug/2018:12:14:24 +0530] "GET /SpringMVCDemo/ HTTP/1.1" 500 10299
+127.0.0.1 - - [06/Aug/2018:12:17:34 +0530] "GET / HTTP/1.1" 404 1076
+0:0:0:0:0:0:0:1 - - [06/Aug/2018:12:17:35 +0530] "GET /SpringMVCDemo/ HTTP/1.1" 200 331
+0:0:0:0:0:0:0:1 - - [06/Aug/2018:12:17:40 +0530] "GET /SpringMVCDemo/showForm HTTP/1.1" 404 1112
+0:0:0:0:0:0:0:1 - - [06/Aug/2018:12:18:08 +0530] "GET /SpringMVCDemo/ HTTP/1.1" 200 337
+0:0:0:0:0:0:0:1 - - [06/Aug/2018:12:18:09 +0530] "GET /SpringMVCDemo/hello/showForm HTTP/1.1" 200 423
+0:0:0:0:0:0:0:1 - - [06/Aug/2018:12:19:24 +0530] "GET /SpringMVCDemo/hello/processFormVersionThree?studentName=vanishree HTTP/1.1" 200 372
+0:0:0:0:0:0:0:1 - - [06/Aug/2018:13:05:02 +0530] "GET / HTTP/1.1" 404 1076
+0:0:0:0:0:0:0:1 - - [06/Aug/2018:13:05:03 +0530] "GET /favicon.ico HTTP/1.1" 404 1087

@@ -1,0 +1,5 @@
+package course.api.springBoot;
+
+public class CourseApiApp {
+
+}

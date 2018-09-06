@@ -1,0 +1,5 @@
+package com.banking.entity.copy;
+
+public class Account {
+
+}

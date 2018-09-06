@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Tue Aug 14 14:33:15 IST 2018
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\vanishree.b\\workspace\\web-customer-tracker\\WebContent\\WEB-INF\\lib\\spring-web-5.0.8.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.0.8.RELEASE-sources.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\vanishree.b\\workspace\\web-customer-tracker\\WebContent\\WEB-INF\\lib\\spring-web-5.0.8.RELEASE.jar=WEB-INF/lib/spring-web-5.0.8.RELEASE.jar
